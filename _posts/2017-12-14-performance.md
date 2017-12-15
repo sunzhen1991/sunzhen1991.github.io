@@ -18,9 +18,9 @@ author: sunzhen
 
 
 
-# CLI模式
+## CLI模式
 
-## 高耗内存脚本
+### 高耗内存脚本
 50万数据赋值
 ```php
 <?php
@@ -48,7 +48,7 @@ echo "耗费内存: {$usedMemory} byte\n";
 | 内存(byte)    | 72195240        |   16781424 |
 
 
-## 高cpu脚本
+### 高cpu脚本
 20000随机数据快速排序
 ```php
 <?php
@@ -99,10 +99,10 @@ echo "耗费内存: {$usedMemory} byte\n";
 
 在使用cli模式时，php7无论在执行时间和内存消耗的表现上都比php5有大幅提升。
 
-# web 模式
+## web 模式
 使用yii2框架测试，分别测试渲染页面和api接口下两者性能差别。
 
-## php5下
+### php5下
 首先测试yii2有渲染页面下的结果，使用apache bench模拟并发量100的1000次请求：
 ```shell
 ab -c100 -n1000 http://xxx.com/aaaa/index
@@ -191,7 +191,7 @@ Percentage of the requests served within a certain time (ms)
  100%   3361 (longest request)
 ```
 
-## php7下
+### php7下
 
 测试render页面
 ```shell
