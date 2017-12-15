@@ -40,17 +40,15 @@ echo "耗费内存: {$usedMemory} byte\n";
 
 测试结果：
 | 测试项        | php5      |  php7    |
-| -------      | -----:     | :----:  |
+| :------------| :---------:| ------: |
 | 时间(ms)      | 99.92     | 22.39    |
 | 内存(byte)    |72195240   |16781424  |
 
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
+| 测试项  | php5  | php7 |
+| ------------- |:---------------:| -----:|
+| 时间(ms)      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-
 
 
 ## 高cpu脚本
