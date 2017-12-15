@@ -1,3 +1,14 @@
+---
+layout: post
+title: "php7比php5的西能提升"
+categories: 软件工具
+tags:  php  
+author: sunzhen
+---
+
+* content
+{:toc}
+
 测试分成cli模式和web模式。测试环境：
 - centos6.4
 - x86_64
@@ -32,6 +43,15 @@ echo "耗费内存: {$usedMemory} byte\n";
 | -------      | -----:     | :----:  |
 | 时间(ms)      | 99.92     | 22.39    |
 | 内存(byte)    |72195240   |16781424  |
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
 
 ## 高cpu脚本
 20000随机数据快速排序
