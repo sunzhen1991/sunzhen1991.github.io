@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "php7比php5的西能提升"
+title: "php7比php5的性能能提升"
 categories: 软件工具
 tags:  php  
 author: sunzhen
@@ -89,11 +89,6 @@ echo "耗费内存: {$usedMemory} byte\n";
 ```
 
 测试结果：
-
-| 测试项        | php5      |  php7    |
-| -------      | -----:     | :----:  |
-| 时间(ms)      | 31690     | 7058    |
-| 内存(byte)    | 2983080   | 1052752  |
 
 | 测试项  | php5  | php7 |
 | ------------- |:---------------:| -----:|

@@ -6,24 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ZOE | 数林觅风
-brief-intro: MindMap, Data Science, Bioinformatics
+title: 觅
+brief-intro: RU kidding me？
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://woaielf.github.io" # the base hostname & protocol for your site
+url: "http://sunzhen1991.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 # twitter_username: gaohaoyang126
 # facebook_username: gaohaoyang.water
-github_username:  woaielf
-email: zhaoyueelf@163.com
+github_username: sunzhen1991
+email: 1543662796@qq.com
 # weibo_username: 3115521wh
 # zhihu_username: woaielf
 # linkedIn_username: gaohaoyang
 # dribbble_username:
 
-description_footer: 「数据科学思维导图笔记」
+description_footer: 「探索运维开发的种种」
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -35,7 +35,7 @@ description_footer: 「数据科学思维导图笔记」
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+#baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
 # google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
@@ -57,4 +57,4 @@ excerpt_separator: "\n\n\n\n"
 
 # paginate
 gems: [jekyll-paginate]
-paginate: 6
+paginate: 10

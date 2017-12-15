@@ -1,3 +1,11 @@
+---
+layout: post
+title: "php7底层变化"
+categories: 软件工具
+tags:  php  
+author: sunzhen
+---
+
 php7修改了底层zval结构体，现在的结构体占用内存更小。要理解为什么php中zval占用内存变小，首先需要理解c语言的字节对齐原则。
 # 字节对齐
 
