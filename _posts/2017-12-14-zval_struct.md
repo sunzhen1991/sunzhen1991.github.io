@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "php7底层变化"
-categories: 软件工具
-tags:  ssh  
+categories: 编程语言
+tags:  php  
 author: sunzhen
 ---
 

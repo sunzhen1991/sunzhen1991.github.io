@@ -1,20 +1,17 @@
 ---
 layout: post
-title: "php7比php5的性能能提升"
-categories: 软件工具
-tags:  ssh  
+title: "php7比php5的性能能提升测试"
+categories: 编程语言
+tags:  php  
 author: sunzhen
 ---
 
-* content
-{:toc}
 
 测试分成cli模式和web模式。测试环境：
 - centos6.4
 - x86_64
 - 4  Intel(R) 2.10GHz
 - php版本分别为5.6.30和7.1.12
-
 
 
 
