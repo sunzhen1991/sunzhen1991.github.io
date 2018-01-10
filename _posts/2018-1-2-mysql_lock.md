@@ -108,7 +108,7 @@ Query OK, 0 rows affected (0.00 sec)
 MySQL [test]> select * from city where population=10002 for update;
 ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
 ```
-由于s1并没有使用索引，所以s1使用了表所，s2会等待。当使用索引时：
+由于s1并没有使用索引，所以s1使用了表锁，s2会等待。当使用索引时：
 
 ```mysql
 S1:
